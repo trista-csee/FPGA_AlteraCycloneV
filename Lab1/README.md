@@ -14,7 +14,7 @@
   <h3 align="center">Add two 1-digit BCD numbers</h3>
 
   <p align="center">
-    including 7-segment displays + Binary coded decimal + Full adder
+    including Binary coded decimal + Full adder + 7-segment displays
     <br />
     <a href="https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/LabsDemo/Lab1">View Lab1 Demo</a>
   </p>
