@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab1">
-    <img src="./images/Lab1-Logo.jpg" alt="Logo">
+    <img src="https://github.com/trista-csee/FPGA_AlteraCycloneV/blob/main/images/Lab1-Logo.jpg" alt="Logo">
   </a>
 
   <h3 align="center">Add two 1-digit BCD numbers</h3>
