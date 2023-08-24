@@ -21,9 +21,9 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<a name="TABLE OF CONTENTS"></a>
 ## Table of Contents
 
+<a name="TABLE OF CONTENTS"></a>
 * [Lab1](#lab1)
 * [Lab2](#lab2)
 * [Lab3](#lab3)
