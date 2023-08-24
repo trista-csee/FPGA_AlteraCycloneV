@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]]()
 [![MIT License][license-shield]][license-url]
@@ -20,10 +21,10 @@
 </p>
 
 
+<a name="TABLE-OF-CONTENTS"></a>
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-<a name="TABLE OF CONTENTS"></a>
 * [Lab1](#lab1)
 * [Lab2](#lab2)
 * [Lab3](#lab3)
@@ -46,7 +47,7 @@
 
 [Add two 1-digit BCD numbers](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab1)
 
-<p align="right">(<a href="#TABLE OF CONTENTS">back to TABLE OF CONTENTS</a>)</p>
+<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
 
 
 <!-- Lab2 -->
@@ -54,7 +55,7 @@
 
 [Time-of-day clock](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab2)
 
-<p align="right">(<a href="#TABLE OF CONTENTS">back to TABLE OF CONTENTS</a>)</p>
+<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
 
 
 <!-- Lab3 -->
@@ -62,7 +63,7 @@
 
 [Multiplexer (8-bit input & 16-bit output)](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab3)
 
-<p align="right">(<a href="#TABLE OF CONTENTS">back to TABLE OF CONTENTS</a>)</p>
+<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
 
 
 <!-- Lab4 -->
@@ -70,7 +71,7 @@
 
 [Counter-like circuit (10-module)](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab4)
 
-<p align="right">(<a href="#TABLE OF CONTENTS">back to TABLE OF CONTENTS</a>)</p>
+<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
 
 
 <!-- Lab5 -->
@@ -78,7 +79,7 @@
 
 [Substitute dual-port memory by single-port memory](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab5)
 
-<p align="right">(<a href="#TABLE OF CONTENTS">back to TABLE OF CONTENTS</a>)</p>
+<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
 
 
 <!-- Lab6 -->
@@ -86,7 +87,7 @@
 
 [Four instructions (mv /mvi /add /sub) processor including memory](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab6)
 
-<p align="right">(<a href="#TABLE OF CONTENTS">back to TABLE OF CONTENTS</a>)</p>
+<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
 
 
 <!-- Lab7 -->
@@ -94,7 +95,7 @@
 
 [My first HPS](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab7)
 
-<p align="right">(<a href="#TABLE OF CONTENTS">back to TABLE OF CONTENTS</a>)</p>
+<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
 
 
 <!-- Lab8 -->
@@ -102,7 +103,7 @@
 
 [Signal connection in Qsys and compile in Linux](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab8)
 
-<p align="right">(<a href="#TABLE OF CONTENTS">back to TABLE OF CONTENTS</a>)</p>
+<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
 
 
 <!-- Lab9 -->
@@ -110,7 +111,7 @@
 
 [Reading and Writing control of ARM DDR3](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab9)
 
-<p align="right">(<a href="#TABLE OF CONTENTS">back to TABLE OF CONTENTS</a>)</p>
+<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
 
 
 <!-- Lab10 -->
@@ -126,7 +127,7 @@
 
 [Adding adjustment on the pixels during the flow of the pixels](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab10/Part4)
 
-<p align="right">(<a href="#TABLE OF CONTENTS">back to TABLE OF CONTENTS</a>)</p>
+<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
 
 
 <!-- LICENSE -->
@@ -148,6 +149,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 吳華楨 Trista Wu - trista.cs11@nycu.edu.tw
 
 Project Link: [https://github.com/trista-csee/FPGA_AlteraCycloneV](https://github.com/trista-csee/FPGA_AlteraCycloneV)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
