@@ -51,7 +51,7 @@ Design arithemetic circuits performing the calculation is 8-bit inputs A x B + C
 * Pin assignments for DE1-SoC board
 * Compile the circuit
 * Download the compiled .sof into DE1-SoC board
-* Test the circuit by selecting the hour or minute
+* Test the circuit by performing some number of multiplications then producing a summation of the results
 
 
 <!-- Inputs and Outputs -->
