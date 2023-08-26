@@ -50,7 +50,7 @@ Design circuits using only one address port RAM to select either a read or write
 * Pin assignments for DE1-SoC board
 * Compile the circuit
 * Download the compiled .sof into DE1-SoC board
-* Test the circuit by selecting the hour or minute
+* Test the circuit by changing some memory values and observing the data properly displayed both on the 7-segment displays on the board and in the In-System Memory Content Editor
 
 
 <!-- Inputs and Outputs -->
