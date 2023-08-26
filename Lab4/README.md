@@ -53,7 +53,7 @@ Design a 10-module counter-like circuit.
 * Pin assignments for DE1-SoC board
 * Compile the circuit
 * Download the compiled .sof into DE1-SoC board
-* Test the circuit by selecting the hour or minute
+* Test the circuit by applying some inputs and observing the output display
 
 
 <!-- Inputs and Outputs -->
