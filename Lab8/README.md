@@ -94,7 +94,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 吳華楨 Trista Wu - trista.cs11@nycu.edu.tw
 
-Project Link: [https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab7](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab7)
+Project Link: [https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab8](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab8)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
