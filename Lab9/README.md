@@ -8,7 +8,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab9">
-    <img src="https://github.com/trista-csee/FPGA_AlteraCycloneV/blob/main/images/Lab9-Logo.png" alt="Logo">
+    <img src="https://github.com/trista-csee/FPGA_AlteraCycloneV/blob/main/images/Lab9-Logo.jpg" alt="Logo">
+  </a>
+  <a href="https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab9">
+    <img src="https://github.com/trista-csee/FPGA_AlteraCycloneV/blob/main/images/Lab9-Logo2.jpg" alt="Logo2">
   </a>
 
   <h3 align="center">Reading and Writing control of ARM DDR3</h3>
