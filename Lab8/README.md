@@ -68,7 +68,7 @@
 * Signal connection in Qsys and compile in Linux
   * Set netlist configuration of 7-segment in Qsys
   * Generate HDL example and copy ".seg7_lut_0_conduit_end_export" in Qsys
-  * Open "ghrd_top.v", add ".seg7_lut_0_conduit_end_export" and output parameter is  in Quartus
+  * Open "ghrd_top.v", add ".seg7_lut_0_conduit_end_export" and output parameter is HEX0 in Quartus
   * Execute Generation in Qsys
   * Start Compliation
   * Compile the header file "hps_0.h" in Putty and LED, 7-segment roll 
