@@ -63,7 +63,7 @@
 |Input-1|Input-2|Output-1|Output-2|
 |-----------|-------------|------------|------------------------|
 |**iStart_n**|*Setting to 0 starts to output control the signals and the pixels*|**oData_Enable**|*Setting to 1 displays the frame*|
-|**iCLK**|*25.175 MHz Clock*|**oData[23:0]**|*oData[7:0] represents red, oData[15:8] represents green, oData[23:16] represents blue *|
+|**iCLK**|*25.175 MHz Clock*|**oData[23:0]**|*oData[7:0] represents red, oData[15:8] represents green, oData[23:16] represents blue*|
 |**iRST_N**|*Reset signal (Setting to 1 is as ignored signal)*|**HSYNC**|*Column synchronization signal*|
 |||**VSYNC**|*horizontal synchronization signal*|
 
