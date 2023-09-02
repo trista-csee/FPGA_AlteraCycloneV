@@ -7,19 +7,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab9">
-    <img src="https://github.com/trista-csee/FPGA_AlteraCycloneV/blob/main/images/Lab9-Logo.jpg" alt="Logo">
-  </a>
-  <a href="https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab9">
-    <img src="https://github.com/trista-csee/FPGA_AlteraCycloneV/blob/main/images/Lab9-Logo2.jpg" alt="Logo2">
+  <a href="https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab10/Part2">
+    <img src="https://github.com/trista-csee/FPGA_AlteraCycloneV/blob/main/images/Lab10Part2-Logo.jpg" alt="Logo">
   </a>
 
-  <h3 align="center">Reading and Writing control of ARM DDR3</h3>
+  <h3 align="center">Display a frame with resolution of 640 * 480</h3>
 
   <p align="center">
-    including FPGA configuration mode switch + Read and Write ARM DDR3 + 7-segment displays
+    including VGA on DE1-SoC + Connect between the FPGA and VGA + display a frame from .qxp file
     <br />
-    <a href="https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/LabsDemo/Lab9">View Lab9 Demo</a>
+    <a href="https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/LabsDemo/Lab10">View Lab10 Demo</a>
   </p>
 </p>
 
@@ -39,44 +36,36 @@
 <!-- Objectives -->
 ## Objectives
 
-* Change the FPGA configuration scheme to FPPx32 and use SD card to load the FPGA configuration file into memory
-* Use Qsys to generate ARM DDR3 memory module and execute read and write control of ARM DDR3
+* Realize how to access the control signals for videos
+* Use .qxp file to output the resolution of the frame 640 * 480 with RGB channels
 
 
 <!-- Experimental Procedures -->
 ## Experimental Procedures
 
-* FPGA board physical configuration
-  * Toggle the MSEL switch to MSEL[4:0] = 01010 to change the FPGA configuration scheme so that the FPGA access DDR3 through the FPGA Bridge  
-* Generate a DDR3 module in Qsys
-  * Execute "DE1SoC_SystemBuilder.exe", generate a new project with HPS inputs and outputs
-  * Add the hard processor system IP and set the HPS configuration in Qsys
-  * Add the clock bridge IP and set the clock bridge configuration in Qsys
-  * Add the address span extender IP and set the address span extender configuration in Qsys
-  * Remove clk_0 and connect the HPS, clock bridge and address span extender in Qsys
-  * Save all configuration as "soc_system.qsys" and generate HDL design file
-  * Generate HDL example and copy the instantiation template in Qsys
-  * Open "DE1_SOC.v", add the instantiation templat and correct the output parameter in Quartus
-  * Open Assignments/Settings, and add "soc_system.qip" from "./quartus labs/LAB9/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/DE1_SOC/soc_system/synthesis/" in Quartus
-  * Open Assignments/Settings, and add "DE1_SOC.SDC" from "./quartus labs/LAB9/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/DE1_SOC/" in Quartus
-* Read and Write control of ARM DDR3
-  * Call the DDR3 memory module produced in Qsys
-  * Read and write DDR3 content to display on the 7-segment displays
-  * Start Analysis & Synthesis
-  * Open Tools/Tcl Scripts and run "hps_sdram_p0_parameters.tcl" and "hps_sdram_p0_pin_assignments.tcl"
-  * Start Compliation to produce the sof file
-  * Run "sof_to_rbf.bat" to convert the sof file to "soc_system.rbf"
-  * Copy the file "soc_system.rbf" into SD card and insert SD card into the DE1-SoC board
-
+* The VGA protocol mainly consists of 5 input signals: HSYNC Signal, VSYNC Signal, and RGB Signal.
+  * HSYNC Signal is the "column synchronization signal"
+  * VSYNC Signal is the "row synchronization signal"
+  * RGB Signal is the "red, green, blue, color signal"
+* VGA scanning a frame of screen is composed of "m row scanning" and "n column filling"
+  * A frame of screen display consists of 600 lines scanned from top to bottom and 800 columns filled from left to right.
+  * HSYNC Signal is used to control "column filling"
+  * VSYNC Signal is used to control "row scan"
+  * One row pixel is measured in column pixels: one row pixel = 1056 column pixels
+  * One column pixel is measured in time: one column pixel = 25ns, one row pixel = 1056 x 25ns = 2.64us
+* Access an encrypted file, .qxp ,which contains a video with I/O to output the resolution of the frame 640 * 480 with RGB channels
+  * the video contains only one frame and continuously output the frame
+  
 
 <!-- Inputs and Outputs -->
 ## Inputs and Outputs
 
 |Input-1|Input-2|Output-1|Output-2|
 |-----------|-------------|------------|------------------------|
-|**CLOCK_50**|*Clock*|**HEX3-2**|*8 bit write in data (in hexadecimal format)*|
-|**SW7-0**|*8 bit data in*|**HEX1-0**|*8 bit read out data (in hexadecimal format)*|
-|**SW9**|*Write enable*|||
+|**iStart_n**|*Setting to 0 starts to output control the signals and the pixels*|**oData_Enable**|*Setting to 1 displays the frame*|
+|**iCLK**|*25.175 MHz Clock*|**oData[23:0]**|*oData[7:0] represents red, oData[15:8] represents green, oData[23:16] represents blue *|
+|**iRST_N**|*Reset signal (Setting to 1 is as ignored signal)*|**HSYNC**|*Column synchronization signal*|
+|||**VSYNC**|*horizontal synchronization signal*|
 
 <p align="right">(<a href="#Spec">back to Specification</a>)</p>
 
@@ -100,7 +89,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 吳華楨 Trista Wu - trista.cs11@nycu.edu.tw
 
-Project Link: [https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab9](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab9)
+Project Link: [https://github.com/trista-csee/FPGA_AlteraCycloneV/edit/main/Lab10/Part2](https://github.com/trista-csee/FPGA_AlteraCycloneV/edit/main/Lab10/Part2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
