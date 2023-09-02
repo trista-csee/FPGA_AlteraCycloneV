@@ -119,6 +119,10 @@
 
 [VGA output through DDR3 SDRAM frame buffer](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab10)
 
+### Part2
+
+[Adding adjustment on the pixels during the flow of the pixels](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab10/Part2)
+
 ### Part3
 
 [Adding adjustment on the pixels during the flow of the pixels](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab10/Part3)
