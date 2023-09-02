@@ -122,7 +122,7 @@
 
 ### Part2
 
-[Adding adjustment on the pixels during the flow of the pixels](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab10/Part2)
+[Display a frame with resolution of 640 * 480](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab10/Part2)
 
 ### Part3
 
