@@ -35,6 +35,7 @@
 * [Lab8](#lab8)
 * [Lab9](#lab9)
 * [Lab10](#lab10)
+  * [Part2](#part2)
   * [Part3](#part3)
   * [Part4](#part4)
 * [License](#license)
