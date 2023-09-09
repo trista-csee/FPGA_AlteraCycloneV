@@ -37,7 +37,6 @@
 * [Lab10](#lab10)
   * [Part2](#part2)
   * [Part3](#part3)
-  * [Part4](#part4)
 * [License](#license)
 * [Let's Get Social](#lets-get-social)
 * [Contact](#contact)
