@@ -127,12 +127,6 @@
 
 [Adding adjustment on the pixels during the flow of the pixels](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab10/Part3)
 
-### Part4
-
-[Adding adjustment on the pixels during the flow of the pixels](https://github.com/trista-csee/FPGA_AlteraCycloneV/tree/main/Lab10/Part4)
-
-<p align="right">(<a href="#TABLE-OF-CONTENTS">back to TABLE OF CONTENTS</a>)</p>
-
 
 <!-- LICENSE -->
 ## License
