@@ -65,7 +65,6 @@ Design the processor with four instructions (mv /mvi /add /sub).
 <p align="right">(<a href="#Spec">back to Specification</a>)</p>
 
 
-
 <!-- LICENSE -->
 ## License
 
@@ -75,7 +74,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- LET'S GET SOCIAL -->
 ## Let's Get Social
 
-* [LinkedIn](https://www.linkedin.com/in/%E8%8F%AF%E6%A5%A8-%E5%90%B3-363252241/)
+* [LinkedIn](https://www.linkedin.com/in/hua-chen-wu-363252241/)
 * [Github](https://github.com/trista-csee)
 
 
